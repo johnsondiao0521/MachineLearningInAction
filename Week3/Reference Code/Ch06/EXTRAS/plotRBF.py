@@ -28,3 +28,7 @@ ax.scatter(xcord1,ycord1, marker='o', s=50, c='red')
 plt.title('Non-linearly Separable Data for Kernel Method')
 plt.show()
 fw.close()
+
+
+def createTest():
+    pass
