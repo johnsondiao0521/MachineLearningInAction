@@ -6,7 +6,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import KNeighborsClassifier
 
-import tushare as ts
 
 
 
@@ -70,4 +69,4 @@ def knncls():
 
 
 if __name__ == '__main__':
-    print(ts.get_hist_data('600848'))  # 一次性获取全部日k线数据
+    knncls()
